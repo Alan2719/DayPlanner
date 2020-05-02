@@ -1,0 +1,130 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.container {
+  background-color: #06AED5;
+  /*height: auto;*/
+}
+
+.container .col-2 {
+  background-color: white;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+.container .col-9 {
+  background-color: rgb(6, 177, 245);
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  padding: 0;
+}
+.container .save {
+  background-color: rgb(255, 162, 23);
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  border-radius:0 0.8em 0 0;
+}
+
+.container .save #save {
+  margin-left: 14px;
+}
+
+/*.container .row .col-9 .form-inline .form-group .form-control {
+  width: 100%;
+  height: auto;
+  margin-top: -30px;
+}*/
+
+.container .row .col-9 .form-inline textarea {
+  width: 100%;
+  height: 77px;
+  margin-top: -31px;
+  border: none;
+  background: transparent;
+  resize: none;
+  padding: 20px;
+  font-size: 25px; 
+
+}.container .row .col-2 p {
+  text-align: right;
+}
+
+.container .row .col-1 button {
+  color: black;
+}
+
+@media (max-width: 560px){
+
+  .container .row .col-1 .schedule {
+      margin-right: 500px;
+  }
+
+}
