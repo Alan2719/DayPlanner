@@ -119,6 +119,12 @@ textarea{
 
 .container .row .col-1 button {
   color: black;
+  margin-bottom: -150px;
+}
+
+.container .row .col-2 .erase {
+  color: black;
+  padding-top: 50px;
 }
 
 @media (max-width: 560px){

@@ -54,6 +54,14 @@ $(".schedule").on('click',function(){ //Agregar la lógica para saber a que text
     localStorage.setItem(index,row);
 })
 
+//Save the value of the current textarea
+$(".delete").on('click',function(){ //Agregar la lógica para saber a que textarea pertenece
+    var index = $(this).val();
+    console.log(index);
+    var row = $("#" + index).val("");
+    localStorage.removeItem(index,row);
+})
+
 //Change the color 
 function displayColor(){
     for (var i = 0; i < hours.length; i++) {
